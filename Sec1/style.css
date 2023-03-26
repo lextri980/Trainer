@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  background-color: black;
+}
+
+.div1, .div2, .div3 {
+  width: 100px;
+  height: 100px;
+}
+
+.div1 {
+  background-color: aqua;
+}
+
+.div2 {
+  background-color: rgb(0, 228, 11);
+}
+
+.div3 {
+  background-color: rgb(253, 148, 27);
+  position: sticky;
+  left: 300px;
+  top: 100px;
+  /* top right bottom left */
+}

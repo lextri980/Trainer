@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+/* 
+  Set width + height
+  Set background
+*/
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+  /* background-image: url("https://images.unsplash.com/photo-1678951602109-3de2f7d9e2fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=427&q=80"); */
+  /* background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll; */
+}
+
+.section-1 {
+  background-color: aqua;
+}
+
+p {
+  color: rgb(0, 255, 102);
+}
+

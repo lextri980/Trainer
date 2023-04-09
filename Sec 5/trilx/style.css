@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: aqua;
+}
+
+.body {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  background-color: rgb(253, 206, 120);
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  height: calc(100vh - 100px);
+  background: rgb(246, 255, 120);
+}
+
+.content {
+  width: calc(100vw - 300px);
+  height: calc(100vh - 100px);
+  background: rgb(106, 255, 106);
+}

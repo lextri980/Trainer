@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.container, .flex {
+    width: 100vw;
+    height: 100vh;
+}
+ .box1, .box2, .box3 {
+ width: 100px;
+ height: 100px;
+} 
+.flex{
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch; */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: aquamarine;
+}
+.box3{
+    background-color: bisque;
+}
+.border {
+    background-color: rgb(185, 185, 201);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    height: 700px;
+    width: 700px;
+    text-align: left;
+    
+   /* text-transform: uppercase; */
+    /* text-indent: 20px; */
+    /* line-height: 30px; */
+    /* word-spacing: 20px; */
+    white-space: nowrap;
+
+}

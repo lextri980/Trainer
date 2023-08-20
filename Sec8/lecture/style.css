@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+p {
+  color: aqua;
+}
+
+div > p {
+  color: red;
+} */
+/* div > .parent {
+  background-color: red;
+} */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    background-color: red;
+  }
+}
